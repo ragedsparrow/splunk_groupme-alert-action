@@ -1,0 +1,32 @@
+<form class="form-horizontal form-complex">
+    <div class="control-group">
+        <label class="control-label" for="groupme_message">Message</label>
+
+        <div class="controls">
+            <input type="text" name="action.groupme.param.message" id="groupme_message" placeholder="e.g. URGENT! Please Action! " />
+            <span class="help-block">The message delivered to the bot</span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="groupme_severity">Severity</label>
+
+        <div class="controls">
+            <select name="action.groupme.param.severity" id="groupme_severity" >
+                          <option value="LOW">Low</option>
+                          <option value="MEDIUM">Medium</option>
+                          <option value="HIGH">High</option>
+                          <option value="CRITICAL">Critical</option>
+                        </select>
+            <span class="help-block">The severity of the message</span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="groupme_bot">Bot ID</label>
+
+        <div class="controls">
+            <input type="text" name="action.groupme.param.botID" id="groupme_bot" placeholder="e.g. 404878142:AAFUeg1fdsagragreqgrqgw" />
+            <span class="help-block">The Bot ID to send the message to.</span>
+        </div>
+    </div>
+</form>
+
